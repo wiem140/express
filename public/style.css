@@ -1,0 +1,86 @@
+body {
+    background-color: burlywood;
+    text-align: center;
+}
+main {
+    background-color: antiquewhite;
+    margin: 0 30 px;
+    height: 800 px;
+    font-size: large;
+}
+h1 {
+    text-align: center;
+    color: rgb(212, 46, 124);
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+}
+h2{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    color: rgb(24, 104, 207);
+}
+h3{
+    font-size: 20px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(204, 28, 86);
+}
+h5{
+    font-size: 20px;
+    font-family: inherit;
+    color: lawngreen;
+}
+p{
+    font-size: 25px;
+    color: black;
+    font-family: initial;
+}
+.NavBar{
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    padding: 20 px 0;
+    color: brown;
+    font-size: large;
+    margin-top: 20 px;
+    margin: 20px;
+    margin-bottom: 0;
+    overflow: hidden;
+
+}
+.link{
+    color: rgb(205, 90, 180);
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+li{
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    padding: 20 px 0;
+    font-size: large;
+    margin-top: 20 px;
+    margin: 20px;
+    margin-bottom: 5px;
+    overflow: hidden;
+    padding-left: 50px;
+    font-size: 20px;
+    font-family: initial;
+    color: rgb(148, 90, 13);
+    
+}
+header{
+    margin: 0 20 px;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+.home-img{
+    height: 600px;
+    width: 1400px;
+}
+.logo{
+    width: 100px;
+    height: 100px;
+    margin: 0px;
+    padding: 0px;
+}
